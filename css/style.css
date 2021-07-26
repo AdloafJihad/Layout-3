@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: hsl(4, 85%, 62%);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.block{
+    overflow: hidden;
+}
+.left_block{
+    width: 15%;
+    height: 500px;
+    background-color: hsl(135, 61%, 47%);
+    float: left;
+    text-align: center;
+}
+.center_block{
+    width: 85%;
+    height: 500px;
+    background-color: rgba(21, 153, 146, 0.466);
+    float: left;
+    text-align: center;
+}
+.slide_block{
+    width: 200px;
+    height: 300px;
+    background-color: rgba(14, 57, 197, 0.438);
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+}
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 255, 0, 0.363);
+    text-align: center;
+}
